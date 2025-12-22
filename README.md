@@ -6,25 +6,6 @@ The code is organized in a modular way. All core functions are defined in indivi
 
 ---
 
-## Repository structure
-
-MA-gev/
-├─ R/
-│  ├─ cand.xi.new_05Dec25.R
-│  ├─ cand.xi.paper_12Dec25.R
-│  ├─ MA_gev_main_16Dec25.R
-│  ├─ mixed.gev.new.14Dec25.R
-│  ├─ weight.com.BMA_16Dec25.R
-│  ├─ K_sensitivity_plot_MA_GEV.R
-│  └─ run_ma_gev.R
-│
-├─ data/
-│  ├─ haenam_data.csv
-│  └─ wando_data.csv
-│
-└─ README.md
-
-
 ## How to run the analysis
 
 1. Clone or download this repository.
