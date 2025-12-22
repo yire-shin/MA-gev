@@ -10,10 +10,10 @@ The code is organized in a modular way. All core functions are defined in indivi
 
 1. Clone or download this repository.
 
-2. Set the working directory to the project root (`MA-gev`).
+2. Set the working directory to the project root (`MA-gev-main`).
 
 ```r
-setwd("path/to/MA-gev")
+setwd("path/MA-gev-main")
 ```
 
 3. Run the main script
