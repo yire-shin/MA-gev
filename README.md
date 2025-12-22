@@ -1,0 +1,41 @@
+# MA-GEV
+
+This repository provides R code for implementing a **Model Averaging (MA) approach for the Generalized Extreme Value (GEV) model**, including parameter estimation, model weighting, and sensitivity analysis.
+
+The code is organized in a modular way. All core functions are defined in individual R scripts and are loaded using `source()` rather than installing an R package.
+
+---
+
+## Repository structure
+
+MA-gev/
+├─ R/
+│  ├─ cand.xi.new_05Dec25.R
+│  ├─ cand.xi.paper_12Dec25.R
+│  ├─ MA_gev_main_16Dec25.R
+│  ├─ mixed.gev.new.14Dec25.R
+│  ├─ weight.com.BMA_16Dec25.R
+│  ├─ K_sensitivity_plot_MA_GEV.R
+│  └─ run_ma_gev.R
+│
+├─ data/
+│  ├─ haenam_data.csv
+│  └─ wando_data.csv
+│
+└─ README.md
+
+
+## How to run the analysis
+
+1. Clone or download this repository.
+
+2. Set the working directory to the project root (`MA-gev`).
+
+```r
+setwd("path/to/MA-gev")
+```
+
+3. Run the main script
+```r
+source("R/run_ma_gev.R")
+```
